@@ -1,8 +1,12 @@
 // SmartQue API - OpenAI Integration for Dynamic Quiz Generation
 
 // API Configuration
-const API_KEY = "youropenaikey";
-const API_URL = "yourapiurl";
+// IMPORTANT: Replace 'YOUR_API_KEY_HERE' with your actual OpenAI API key
+// For local development: Add your key below
+// For Vercel deployment: The key is exposed in browser, use with caution
+const API_KEY = 'YOUR_API_KEY_HERE';
+const API_URL = 'https://api.openai.com/v1/chat/completions';
+
 // Quiz state
 let selectedTopic = null;
 let selectedLevel = null;
